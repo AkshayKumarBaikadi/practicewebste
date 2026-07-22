@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    margin-left: 620px;
+    margin-top: 215px;
+   background-color:cadetblue ;
+    
+}
+h1{
+    margin-left: -38px;
+    
+}
+login box{
+    border-color: black;
+    border-radius: 50px;
+}
+form{
+    width: 200px;
+    height: 250px;
+    background-color:skyblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+}
+button {
+    display: block;
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    background: #f0f5f6;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+input{
+    display: block;
+    width: 175px;
+    margin: 10px auto 0;
+    padding: 5px;
+    background-color: beige;
+    border: none;
+    border-radius: 5px;
+    
+}
