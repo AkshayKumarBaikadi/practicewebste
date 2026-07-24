@@ -72,7 +72,7 @@ span:hover {
     cursor: pointer;
 }
 
-ul li:hover {
+.nav-bar li:hover {
     background-color: aliceblue;
     width: fit-content;
     padding: 5px;
@@ -496,7 +496,9 @@ ul li:hover {
     position: absolute;
     top: 220px;
     left: 45px;
-    width: 230px;
+    border-radius: 10px;
+    width: 275px;
+    border-radius: 10px;
     height: 150px;
     background-color: rgb(255, 255, 255);
 }
@@ -504,19 +506,59 @@ ul li:hover {
 .card10 h4 {
     position: absolute;
     left: 10px;
-    font-size: small;
+    font-size: medium;
     top: 5px;
     width: 110px;
     background-color: rgb(255, 255, 255);
 }
 
+.card10 ol li {
+    position: relative;
+    font-size: small;
+    top: 15px;
+    left: -28px;
+    list-style: none;
+    padding: 3px;
+}
+
+.card10 li {
+    position: relative;
+    font-size: x-small;
+    top: 10px;
+    left: -28px;
+    list-style: none;
+    padding: 3px;
+}
+
+progress {
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    width: 100px;
+    height: 7px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 20px;
+    font-size: 30px;
+}
+
 .card11 {
     position: absolute;
     top: 220px;
-    left: 300px;
-    width: 230px;
+    left: 330px;
+    border-radius: 10px;
+    width: 160px;
     height: 150px;
     background-color: rgb(255, 255, 255);
+}
+
+.card11 ol li {
+    position: relative;
+    font-size: small;
+    top: 15px;
+    left: -28px;
+    list-style: none;
+    padding: 3px;
 }
 
 .card11 h4 {
@@ -732,7 +774,7 @@ ul li:hover {
     display: flex;
     background-color: azure;
     height: 200px;
-    width: 1700px;
+    width: 1585px;
     left: -100px;
     top: 610px;
 }
