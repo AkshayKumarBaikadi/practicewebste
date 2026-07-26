@@ -515,7 +515,7 @@ span:hover {
 .card10 ol li {
     position: relative;
     font-size: small;
-    top: 15px;
+    top: 5px;
     left: -28px;
     list-style: none;
     padding: 3px;
@@ -525,6 +525,15 @@ span:hover {
     position: relative;
     font-size: x-small;
     top: 10px;
+    left: -28px;
+    list-style: none;
+    padding: 3px;
+}
+
+.card11 ol li {
+    position: relative;
+    font-size: small;
+    top: 5px;
     left: -28px;
     list-style: none;
     padding: 3px;
