@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+video {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.navbar img {
+    display: flex;
+    position: absolute;
+    width: 150px;
+    left: 80px;
+    top: 20px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    position: absolute;
+    left: 240px;
+    top: 35px;
+    gap: 60px;
+    cursor: default;
+
+}
+
+.navbar ul li {
+    display: flex;
+    left: 300px;
+    color: aliceblue;
+}
+
+span {
+    position: absolute;
+    left: 750px;
+    top: 25px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+
+}
+
+.lgn span {
+    position: absolute;
+    left: 1300px;
+    border: 0cap;
+    cursor: pointer;
+}
+
+.lgn button {
+    position: absolute;
+    left: 1400px;
+    top: 25px;
+    border: 2px solid white;
+    background: white;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.card1 h1 {
+    display: flex;
+    position: absolute;
+    top: 320px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 200px;
+    font-size: 70px;
+}
+
+.card1 h5 {
+    display: flex;
+    position: absolute;
+    top: 400px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 200px;
+    font-size: 40px;
+}
+
+.card1 h5 {
+    animation: slideUp 3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(70px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card1 h4 {
+    display: flex;
+    position: absolute;
+    top: 500px;
+    color: white;
+    width: 550px;
+    font-weight: 50;
+    left: 200px;
+    font-size: 25px;
+}
+
+.card1 button {
+    position: absolute;
+    left: 200px;
+    top: 600px;
+    border: 2px solid white;
+    background: white;
+    color: black;
+    padding: 16px 24px;
+    border-radius: 20px;
+}
+
+.border1 img {
+    position: fixed;
+    left: 400px;
+    top: 605px;
+    width: 50px;
+    height: 40px;
+}
+
+.border1 {
+    position: absolute;
+    left: 390px;
+    top: 600px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid rgb(25, 24, 24);
+    background: transparent;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.border1 h1 {
+    position: fixed;
+    left: 460px;
+    top: 615px;
+    font-size: 15px;
+}
