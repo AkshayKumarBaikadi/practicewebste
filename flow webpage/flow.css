@@ -124,6 +124,9 @@ span:hover {
     width: 420px;
     background-color: none;
 }
+.main-content h2 span {
+    color: blue;
+}
 .main-content p {
     position: absolute;
     top: 170px;
