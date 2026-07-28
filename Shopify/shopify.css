@@ -123,8 +123,15 @@ span {
     color: black;
     padding: 16px 24px;
     border-radius: 20px;
+    cursor: pointer;
 }
-
+.card1 button:hover {
+    width: 148px;
+    box-shadow: 1px 1px;
+    background: fixed;
+    color:darkgreen;
+   
+}
 .border1 img {
     position: fixed;
     left: 400px;
