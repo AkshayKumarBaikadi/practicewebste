@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar {
+margin-top: 10px;
+}
+.navheader {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.list ul {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    justify-content: center;
+    padding: 15px;
+}
+.login {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding: 15px;
+}
+.login span {
+    padding: 7px;
+    border-radius: 6px;
+}
+.login button {
+    padding: 7px;
+    background-color: blue;
+    border-radius: 6px;
+}
+.maincontainer {
+    display: flex;
+    gap: 300px;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box1 {
+    display: flex;
+    background-color: aqua;
+    padding: 8px;
+    border-radius: 7px;
+    width: fit-content;
+    margin-left: 150px;
+    margin-top: 150px;
+    list-style: none;
+    gap: 20px;
+}
+.innerbox1 {
+    background-color:azure;
+    border-radius: 5px;
+}
+.header2 {
+    width: 445px;
+    font-size: larger;
+    margin-left: 148px;
+    margin-top: 5px;
+}
+.header2 span {
+    color: blue;
+}
+.paragraph1 {
+    font-size: medium;
+    width: 400px;
+    margin-left: 148px;
+    margin-top: 5px;
+}
+.button2 {
+    margin-left: 148px;
+    margin-top: 45px;
+    width: fit-content;
+}
+.button2 button {
+    padding: 7px;
+    background-color: blue;
+    border-radius: 6px;
+}
+.iconimage1 {
+    margin-left: 350px;
+    margin-top: 5px;
+    display: flex;
+    gap: 15px;
+}
+.playbtn {
+    margin-top: -38px;
+}
+.header3 {
+    margin-top: -43px;
+}
+.header3 span {
+    font-size: small;
+    margin-left: 5px;
+}
+.container2 {
+    display: flex;
+    margin-top: 110px;
+}
+.container2 .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.searbar {
+    display: flex;
+    gap: 15px;
+    margin-left: 15px;
+}
+.input {
+    background-color:whitesmoke;
+    width:fit-content;
+    height: fit-content;
+   
+}
+.header4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: -170px;
+}
