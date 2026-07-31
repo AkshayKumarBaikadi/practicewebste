@@ -49,3 +49,9 @@ input{
     border-radius: 5px;
     
 }
+button:hover {
+    background-color: rgb(59, 123, 13);
+    width: 150px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 15x;
+}
