@@ -51,7 +51,7 @@ input{
 }
 button:hover {
     background-color: rgb(59, 123, 13);
-    width: 150px;
+    width: 152px;
     box-shadow: 5px 5px 5px;
-    border-radius: 15x;
+    border-radius: 14x;
 }
