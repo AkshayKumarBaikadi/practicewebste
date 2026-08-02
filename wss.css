@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 6px;
+    padding: 20px;
+    
+}
+.nav-bar-main {
+    background-color: black;
+    display: flex;
+    width: 1600px;
+    height: 150px;
+    justify-content: space-between;
+}
+.left-section1 {
+    width: 15px;
+    height: 15px;
+}
+.img1 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
