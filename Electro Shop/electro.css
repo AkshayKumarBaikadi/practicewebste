@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-nav-bar {
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar1 {
+    display: flex;
+    gap: 430px;
+    padding-top: 15px;
+    padding: 20px;
+}
+.nvbr-h1 {
+font-family: "Poppins", sans-serif;
+font-weight: lighter;
+font-size:30px;
+}
+.search-bar {
+    display: flex;
+    width:400px;
+    height: fit-content;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: space-between;
+}
+.input {
+    padding: 5px;
+    border-radius: 4px;
+}
+.profile {
+    display: flex;
+    gap: 40px;
+}
+.mic {
+    display: flex;
+    padding: 5px;
+}
+.nav-bar2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:aqua;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+.support {
+    display: flex;
+    gap: 10px;
+}
+.backgroundimage {
+    width:1585px;
+    height: 470px;
+}
+.textcontent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 300px;
+    top: 150px;
+    padding: 20px;
+}
+.header-1 {
+    font-size:37px;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    color: yellow;
+}
+span {
+    color: black;
+}
+.sub-content {
+    display:flex ;
+    flex-direction: column;
+    gap: 40px;
+}
+button {
+    background-color: black;
+    color:white;
+    padding: 15px;
+    border-radius: 2px;
+}
+.testmonials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.cardimage {
+    display:flex;
+    width: 350px;
+    height: -380px;
+}
+.cards {
+    display:flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 280px;
+    padding-right: 300px;
+}
