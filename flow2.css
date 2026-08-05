@@ -127,37 +127,167 @@ margin-top: 10px;
 .inner-cards {
     display: flex;
     gap: 20px;
+    justify-content: center;
     margin-top: 190px;
     margin-left:-340px ;
     fontsize: small;
 }
+.cardheading1 {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+.cardheading2 {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+}
+.cardpara {
+    font-size:x-small;
+    display: flex;
+    justify-content: center;
+}
 .card1 {
-    width:fit-content;
+    width: 100px;
     height: fit-content;
     background-color: aqua;
     border-radius: 10px;
-    padding: 10px;
-    align-items: center;
-
+    padding: 15px;
  }
  .card2 {
-    width:fit-content;
+   width: 100px;
     height: fit-content;
     background-color: aqua;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
  }
  .card3 {
-    width:fit-content;
+    width: 100px;
     height: fit-content;
     background-color: aqua;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
  }
  .card4 {
-    width:fit-content;
+    width: 100px;
     height: fit-content;
     background-color: aqua;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
  }
+ .test-monials {
+    background-color: whitesmoke;
+ }
+ .testheader1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+ }
+ .testcontainer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 350px;
+    padding-right: 350px;
+ }
+ .testheader2 {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+.testpara {
+    font-size:x-small;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 5px;
+}
+ .cardimage {
+    display: flex;
+    justify-content: center;
+     width: 20px;
+     padding: 6px; 
+ }
+ .card5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-color: black;
+    justify-content: center;
+    height: 150px;
+    width: 150px;;
+    padding: 0px;
+ }
+  .card6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+ }
+  .card7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+   padding: 0px;
+ }
+  .card8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+ }
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.footerimages {
+    display: flex;
+    gap:150px;
+}
+.footerheader {
+    font-size:medium;
+}
+.footerimg1 {
+    display: flex;
+    width: 12px;
+    height: 22px
+}
+.footerimg2 {
+    display: flex;
+    width: 12px;
+    height: 22px
+}
+.footerimg3 {
+    display: flex;
+    width: 12px;
+    height: 22px
+}
+.footerimg4 {
+    display: flex;
+   width: 12px;
+    height: 22px
+}
+.footerimg5 {
+    display: flex;
+    width: 12px;
+    height: 22px
+}
+.footerimg6 {
+    display: flex;
+    width: 12px;
+    height: 22px
+}
