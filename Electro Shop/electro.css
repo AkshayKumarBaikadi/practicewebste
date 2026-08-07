@@ -133,6 +133,7 @@ button {
     background-color: burlywood;
     color: white;
     padding: 20px;
+    border: 1px solid;
     border-color: black;
     border-radius: 5px;
 
@@ -160,6 +161,7 @@ button {
     background-color: aqua;
     color: white;
     padding: 20px;
+    border: 1px solid;
     border-color: black;
     border-radius: 5px;
 }
@@ -179,6 +181,7 @@ button {
     background-color: aquamarine;
     color: white;
     padding: 20px;
+    border: 1px solid;
     border-color: black;
     border-radius: 5px;
 }
