@@ -24,7 +24,7 @@ header {
 }
 
 .navbar {
-    width: 90%;
+    width:90%;
     max-width: 1200px;
     margin: auto;
     min-height: 70px;
@@ -146,7 +146,6 @@ header {
 .services {
     width: 90%;
     max-width: 1200px;
-
     margin: 60px auto;
 }
 
@@ -289,7 +288,7 @@ footer {
 
         text-align: center;
 
-        padding: 50px 0;
+        padding: 50px ;
     }
 
     .hero-content {
@@ -313,8 +312,6 @@ footer {
         max-width:350px;
         height: 250px;
     }
-
-
     /* SERVICES */
 
     .service-container {
