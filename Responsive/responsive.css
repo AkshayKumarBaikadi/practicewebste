@@ -1,0 +1,335 @@
+/* =========================
+   BASIC RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+}
+
+.nav-links a:hover {
+    color: #0077ff;
+}
+
+.menu-btn {
+    display: none;
+
+    border: none;
+    background: none;
+
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    width: 90%;
+    max-width: 1200px;
+    min-height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+
+    max-width: 500px;
+}
+
+.hero-btn {
+    padding: 14px 28px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #0077ff;
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background: #005dcc;
+}
+
+
+/* HERO IMAGE */
+
+.hero-image {
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.image-box {
+    width: 350px;
+    height: 300px;
+
+    background: #e8f2ff;
+
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 120px;
+}
+
+
+/* =========================
+   SERVICES
+========================= */
+
+.services {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 60px auto;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.service-container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.card {
+    padding: 30px;
+
+    border: 1px solid #ddd;
+    border-radius: 15px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    line-height: 1.5;
+    color: #666;
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 80px auto;
+
+    padding: 60px;
+
+    background: #f5f7fa;
+
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 17px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 25px;
+
+    background: #222;
+    color: white;
+
+    text-align: center;
+}
+
+
+/* ==================================================
+   TABLET
+   ================================================== */
+
+@media (max-width: 900px) {
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero {
+        gap: 30px;
+    }
+
+    .image-box {
+        width: 300px;
+        height: 260px;
+    }
+
+}
+
+
+/* ==================================================
+   MOBILE
+   ================================================== */
+
+@media (max-width: 600px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        min-height: 100px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 50px 0;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .image-box {
+        width: 100%;
+        max-width:350px;
+        height: 250px;
+    }
+
+
+    /* SERVICES */
+
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+
+    .services h2 {
+        font-size: 30px;
+    }
+
+
+    /* ABOUT */
+
+    .about {
+        padding: 40px 20px;
+    }
+
+}
