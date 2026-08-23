@@ -139,7 +139,15 @@ hr {
 p {
     color: black;
     cursor:default;
-
+}
+p:hover {
+    background-color: aqua;
+    border-color: black solid 2px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color:rgb(142, 142, 147);
+    box-shadow: 5px 5px 5px;
 }
 .return-icon {
     color: blueviolet;
@@ -172,12 +180,20 @@ background-color:aquamarine;
 border-top-left-radius: 40%;
 border-top-right-radius:40%;
 }
+.card-1:hover {
+     background-color:whitesmoke;
+    box-shadow: 5px 5px 5px;
+}
 .card-2 {
 width: 10%;
 height: 150px;
 background-color:aquamarine;
 border-top-left-radius: 40%;
 border-top-right-radius:40%;
+}
+.card-2:hover {
+     background-color:whitesmoke;
+    box-shadow: 5px 5px 5px;
 }
 .card-3 {
 width: 10%;
@@ -186,12 +202,20 @@ background-color:aquamarine;
 border-top-left-radius: 40%;
 border-top-right-radius:40%;
 }
+.card-3:hover {
+     background-color:whitesmoke;
+    box-shadow: 5px 5px 5px;
+}
 .card-4{
 width: 10%;
 height: 150px;
 background-color:aquamarine;
 border-top-left-radius: 40%;
 border-top-right-radius:40%;
+}
+.card-4:hover {
+     background-color:whitesmoke;
+    box-shadow: 5px 5px 5px;
 }
 .card-5 {
 width: 10%;
@@ -200,12 +224,20 @@ background-color:aquamarine;
 border-top-left-radius: 40%;
 border-top-right-radius:40%;
 }
+.card-5:hover {
+     background-color:whitesmoke;
+    box-shadow: 5px 5px 5px;
+}
 .card-6 {
 width: 10%;
 height: 150px;
 background-color:aquamarine;
 border-top-left-radius: 40%;
 border-top-right-radius:40%;
+}
+.card-6:hover {
+     background-color:whitesmoke;
+    box-shadow: 5px 5px 5px;
 }
 .card-img {
     width: 150px;
