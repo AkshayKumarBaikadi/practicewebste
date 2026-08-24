@@ -22,12 +22,14 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 250px;
-    padding:1%;
+    padding: 1%;
 }
+
 .logo h1 {
     font-size: 35px;
     white-space: nowrap;
 }
+
 .search-box {
     width: 40%;
     height: 45px;
@@ -36,40 +38,49 @@ body {
     padding: 0 12px;
     gap: 10px;
 }
+
 .searchicon {
     font-size: 18px;
     cursor: pointer;
 }
+
 .input {
     padding: 5px;
 }
+
 .ul-1 {
     display: flex;
     align-items: center;
     gap: 15px;
     white-space: nowrap;
 }
+
 .ul-1 li {
     font-size: 14px;
 }
+
 .ul-1 span {
     margin-left: 10px;
 }
+
 .profile {
     display: flex;
     align-items: center;
     gap: 25px;
     font-size: 20px;
 }
+
 .menu-bar {
     display: none;
     font-size: 22px;
     cursor: pointer;
 }
+
 hr {
     border: none;
     border-top: 1px solid #ddd;
 }
+
 .nav-2 {
     width: 100%;
     max-width: 1200px;
@@ -77,6 +88,7 @@ hr {
     justify-content: center;
     border-bottom: 1px solid #ddd;
 }
+
 .ul-2 {
     width: 100%;
     max-width: 1200px;
@@ -85,21 +97,25 @@ hr {
     align-items: center;
     padding: 15px 4%;
 }
+
 .ul-2 li {
     font-size: 15px;
     white-space: nowrap;
     cursor: pointer;
 }
+
 .background-img {
     width: 100%;
     position: relative;
 }
+
 .background-img img {
     display: block;
     width: 100%;
     height: 400px;
     object-fit: cover;
 }
+
 .text-content {
     position: absolute;
     top: 50%;
@@ -107,6 +123,7 @@ hr {
     transform: translateY(-50%);
     z-index: 2;
 }
+
 .para-1 {
     font-size: 35px;
     font-weight: 800;
@@ -114,6 +131,7 @@ hr {
     line-height: 1.3;
     margin: 0;
 }
+
 .text-content button {
     width: 110px;
     padding: 10px;
@@ -123,32 +141,37 @@ hr {
     background-color: white;
     color: black;
     cursor: pointer;
-} 
+}
+
 .container-2 {
     margin-top: 5px;
     display: flex;
     align-items: center;
     border: solid black 1px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     padding: 15px;
     max-width: 1200px;
     border-radius: 10%;
     margin-left: 10%;
     margin-right: 10%;
 }
+
 p {
     color: black;
-    cursor:default;
+    cursor: default;
 }
+
 p:hover {
     background-color: aqua;
     border-color: black solid 2px;
     border-radius: 5px;
 }
+
 button:hover {
-    background-color:rgb(142, 142, 147);
+    background-color: rgb(142, 142, 147);
     box-shadow: 5px 5px 5px;
 }
+
 .return-icon {
     color: blueviolet;
     gap: 10px;
@@ -156,166 +179,200 @@ button:hover {
     display: flex;
     cursor: pointer;
 }
+
 .money-icon {
-    color:darkgoldenrod;
+    color: darkgoldenrod;
     gap: 10px;
     align-items: center;
     display: flex;
 }
+
 .cost-icon {
-    color:cadetblue;
+    color: cadetblue;
     gap: 10px;
     align-items: center;
-    display: flex;  
+    display: flex;
 }
+
 .container-3 {
     display: flex;
     justify-content: space-between;
-    padding: 1%;  
+    padding: 1%;
 }
+
 .card-1 {
-width: 10%;
-height: 150px;
-background-color:aquamarine;
-border-top-left-radius: 40%;
-border-top-right-radius:40%;
+    width: 10%;
+    height: 150px;
+    background-color: aquamarine;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
 }
+
 .card-1:hover {
-     background-color:whitesmoke;
+    background-color: whitesmoke;
     box-shadow: 5px 5px 5px;
 }
+
 .card-2 {
-width: 10%;
-height: 150px;
-background-color:aquamarine;
-border-top-left-radius: 40%;
-border-top-right-radius:40%;
+    width: 10%;
+    height: 150px;
+    background-color: aquamarine;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
 }
+
 .card-2:hover {
-     background-color:whitesmoke;
+    background-color: whitesmoke;
     box-shadow: 5px 5px 5px;
 }
+
 .card-3 {
-width: 10%;
-height: 150px;
-background-color:aquamarine;
-border-top-left-radius: 40%;
-border-top-right-radius:40%;
+    width: 10%;
+    height: 150px;
+    background-color: aquamarine;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
 }
+
 .card-3:hover {
-     background-color:whitesmoke;
+    background-color: whitesmoke;
     box-shadow: 5px 5px 5px;
 }
-.card-4{
-width: 10%;
-height: 150px;
-background-color:aquamarine;
-border-top-left-radius: 40%;
-border-top-right-radius:40%;
+
+.card-4 {
+    width: 10%;
+    height: 150px;
+    background-color: aquamarine;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
 }
+
 .card-4:hover {
-     background-color:whitesmoke;
+    background-color: whitesmoke;
     box-shadow: 5px 5px 5px;
 }
+
 .card-5 {
-width: 10%;
-height: 150px;
-background-color:aquamarine;
-border-top-left-radius: 40%;
-border-top-right-radius:40%;
+    width: 10%;
+    height: 150px;
+    background-color: aquamarine;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
 }
+
 .card-5:hover {
-     background-color:whitesmoke;
+    background-color: whitesmoke;
     box-shadow: 5px 5px 5px;
 }
+
 .card-6 {
-width: 10%;
-height: 150px;
-background-color:aquamarine;
-border-top-left-radius: 40%;
-border-top-right-radius:40%;
+    width: 10%;
+    height: 150px;
+    background-color: aquamarine;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
 }
+
 .card-6:hover {
-     background-color:whitesmoke;
+    background-color: whitesmoke;
     box-shadow: 5px 5px 5px;
 }
+
 .card-img {
     width: 150px;
     height: 150px;
 }
+
+.card-img:hover {
+    width: 100px;
+    height: 100px;
+}
+
 .para {
     display: flex;
     justify-content: center;
-    font-size: small;  
+    font-size: small;
 }
+
 @media (max-width: 900px) {
     .nav-1 {
-    width: 100%;
-    min-height: 70px;
-    display: flex;
-}
-.logo h1 {
-    font: size 20px;
-    white-space: nowrap;
-}
-.search-box {
-    width: 40%;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    padding: 2px;
-    gap: 10px;
-}
-.searchicon {
-    font-size:small
-    cursor: pointer;
-}
-.input {
-    padding:2px;
-}
-.ul-1 {
-     display:none;
-   
-}
-.ul-1 li {
-    
-    display: none;
-}
-.ul-1 span {
-    margin-left: 8px;
-}
-.profile {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    font-size: 10px;
-}
-.menu-bar {
-    display: block;
-    font-size: 22px;
-    cursor: pointer;
-}
-hr {
-    border: none;
-    border-top: 1px solid #ddd;
-}
-.container-2 {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid black 1px;
-    justify-content:space-evenly;
-    padding: 5px;
-    border-radius:5%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.container-3 {
-    display: flex;
-    flex-direction: column;
-     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
+        width: 100%;
+        min-height: 70px;
+        display: flex;
+    }
+
+    .logo h1 {
+        font: size 20px;
+        white-space: nowrap;
+    }
+
+    .search-box {
+        width: 40%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        gap: 10px;
+    }
+
+    .searchicon {
+        font-size: small cursor: pointer;
+    }
+
+    .input {
+        padding: 2px;
+    }
+
+    .ul-1 {
+        display: none;
+
+    }
+
+    .ul-1 li {
+
+        display: none;
+    }
+
+    .ul-1 span {
+        margin-left: 8px;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        font-size: 10px;
+    }
+
+    .menu-bar {
+        display: block;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #ddd;
+    }
+
+    .container-2 {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid black 1px;
+        justify-content: space-evenly;
+        padding: 5px;
+        border-radius: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .container-3 {
+        display: flex;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 }
