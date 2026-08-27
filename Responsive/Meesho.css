@@ -367,7 +367,10 @@ button:hover {
         margin-left: 5%;
         margin-right: 5%;
     }
-
+.container-2:hover {
+        padding: 6px;
+        border-radius: 3%;
+}
     .container-3 {
         display: flex;
         flex-direction: column;
